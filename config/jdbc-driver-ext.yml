@@ -24,7 +24,6 @@ IMPALA:
   url-prefix: "jdbc:impala://"
   sql-dialect: "datart.data.provider.calcite.dialect.ImpalaSqlDialectSupport"
 
-
 ORACLE:
   quote-identifiers: false
 
