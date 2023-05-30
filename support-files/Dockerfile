@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 RUN sed -i 's/archive.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/g' /etc/apt/sources.list && \
     apt-get update && \
-    apt-get install -y openjdk-8-jdk && \
+    apt-get install -y openjdk-8-jdk unzip && \
     apt-get clean
 WORKDIR /apps
 ADD ./datart-server-install.zip .
