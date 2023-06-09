@@ -1,0 +1,551 @@
+2023-04-24 18:37:45.903 [background-preinit] INFO  org.hibernate.validator.internal.util.Version : HV000001: Hibernate Validator 6.1.7.Final
+2023-04-24 18:37:45.954 [main] INFO  datart.DatartServerApplication : Starting DatartServerApplication using Java 1.8.0_241 on umaru with PID 16505 (/Users/kira/Documents/workspaces/opensource/datart/server/target/classes started by kira in /Users/kira/Documents/workspaces/opensource/datart)
+2023-04-24 18:37:45.955 [main] INFO  datart.DatartServerApplication : The following profiles are active: demo
+2023-04-24 18:37:47.253 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-24 18:37:47.256 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data LDAP repositories in DEFAULT mode.
+2023-04-24 18:37:47.359 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 0 LDAP repository interfaces.
+2023-04-24 18:37:47.376 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-24 18:37:47.378 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-24 18:37:47.435 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 0 Redis repository interfaces.
+2023-04-24 18:37:47.801 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$aca58984] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:47.864 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroAnnotationProcessorAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroAnnotationProcessorAutoConfiguration$$EnhancerBySpringCGLIB$$af38c829] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.152 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.173 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroAutoConfiguration$$EnhancerBySpringCGLIB$$72a52b54] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.179 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'securityConfiguration' of type [datart.security.manager.shiro.SecurityConfiguration$$EnhancerBySpringCGLIB$$d1b5fec5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.262 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.273 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cc60fd04] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.278 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$b338a146] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.281 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-04-24 18:37:48.356 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.624 [main] INFO  com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-04-24 18:37:48.624 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.656 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.698 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.706 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.758 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'userMapperExt' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.761 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'userMapperExt' of type [com.sun.proxy.$Proxy103] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.889 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'roleMapperExt' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.891 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'roleMapperExt' of type [com.sun.proxy.$Proxy107] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.925 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'relRoleResourceMapperExt' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.926 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'relRoleResourceMapperExt' of type [com.sun.proxy.$Proxy110] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.960 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'requestScopePermissionDataCache' of type [org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.960 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'requestScopePermissionDataCache' of type [datart.security.manager.RequestScopePermissionDataCache$$EnhancerBySpringCGLIB$$ce91ea93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.962 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'threadScopePermissionDataCache' of type [datart.security.manager.ThreadScopePermissionDataCache] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.963 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'permissionDataCache' of type [datart.security.manager.PermissionDataCache] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.966 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'passwordCredentialsMatcher' of type [datart.security.manager.shiro.PasswordCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.977 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'realm' of type [datart.security.manager.shiro.DatartRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.998 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'sessionStorageEvaluator' of type [org.apache.shiro.mgt.DefaultSessionStorageEvaluator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:48.999 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'subjectDAO' of type [org.apache.shiro.mgt.DefaultSubjectDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:49.001 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'subjectFactory' of type [org.apache.shiro.mgt.DefaultSubjectFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:49.002 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'authenticationStrategy' of type [org.apache.shiro.authc.pam.AtLeastOneSuccessfulStrategy] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:49.003 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'authenticator' of type [org.apache.shiro.authc.pam.ModularRealmAuthenticator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:49.004 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'authorizer' of type [org.apache.shiro.authz.ModularRealmAuthorizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:49.007 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'sessionDAO' of type [org.apache.shiro.session.mgt.eis.MemorySessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:49.009 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'sessionFactory' of type [org.apache.shiro.session.mgt.SimpleSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:49.011 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'sessionManager' of type [org.apache.shiro.session.mgt.DefaultSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:49.016 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.mgt.DefaultSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:49.031 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24 18:37:49.481 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-04-24 18:37:49.493 [main] INFO  org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2023-04-24 18:37:49.494 [main] INFO  org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-04-24 18:37:49.494 [main] INFO  org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2023-04-24 18:37:49.627 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-04-24 18:37:49.628 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3625 ms
+2023-04-24 18:37:50.335 [main] INFO  datart.core.migration.DatabaseMigration : No migration required , current database version is 1.0.0.rc.1
+2023-04-24 18:37:50.694 [main] INFO  o.s.ldap.core.support.AbstractContextSource : Property 'userDn' not set - anonymous context will be used for read-write operations
+2023-04-24 18:37:51.481 [main] INFO  org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2023-04-24 18:37:51.496 [main] INFO  org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-04-24 18:37:51.496 [main] INFO  org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2023-04-24 18:37:51.500 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : Using db table-based data access locking (synchronization).
+2023-04-24 18:37:51.502 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : JobStoreCMT initialized.
+2023-04-24 18:37:51.502 [main] INFO  org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DatartScheduleCluster' with instanceId 'umaru1682332671485'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2023-04-24 18:37:51.502 [main] INFO  org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'DatartScheduleCluster' initialized from an externally provided properties instance.
+2023-04-24 18:37:51.502 [main] INFO  org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2023-04-24 18:37:51.503 [main] INFO  org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@72a0a60d
+2023-04-24 18:37:53.379 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-04-24 18:37:53.535 [main] INFO  o.s.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/api/v1/tpa'] with []
+2023-04-24 18:37:53.597 [main] INFO  o.s.security.web.DefaultSecurityFilterChain : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2087c939, org.springframework.security.web.context.SecurityContextPersistenceFilter@7bf16972, org.springframework.security.web.header.HeaderWriterFilter@5b72b13a, org.springframework.security.web.authentication.logout.LogoutFilter@5b2ade46, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d1c8f35, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5655278d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c3a7b84, org.springframework.security.web.session.SessionManagementFilter@578c99ac, org.springframework.security.web.access.ExceptionTranslationFilter@49c947f7]
+2023-04-24 18:37:53.925 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-24 18:37:54.029 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping : Adding welcome page: ServletContext resource [/index.html]
+2023-04-24 18:37:54.629 [main] INFO  org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2023-04-24 18:37:54.655 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-24 18:37:54.656 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2023-04-24 18:37:54.672 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-04-24 18:37:55.039 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2023-04-24 18:37:55.634 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator : Generating unique operation named: executeUsingPOST_1
+2023-04-24 18:37:55.778 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator : Generating unique operation named: downloadFileUsingGET_1
+2023-04-24 18:37:55.791 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator : Generating unique operation named: executeUsingPOST_2
+2023-04-24 18:37:56.028 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator : Generating unique operation named: checkNameUsingPOST_1
+2023-04-24 18:37:56.037 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator : Generating unique operation named: createUsingPOST_1
+2023-04-24 18:37:56.055 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator : Generating unique operation named: getSubjectVariableValuesUsingGET_1
+2023-04-24 18:37:56.116 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator : Generating unique operation named: listArchivedUsingGET_1
+2023-04-24 18:37:56.147 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator : Generating unique operation named: unarchiveUsingPUT_1
+2023-04-24 18:37:56.539 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator : Generating unique operation named: getDatachartUsingGET_1
+2023-04-24 18:37:56.593 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader : Trying to infer dataType datart.server.base.transfer.ImportStrategy
+2023-04-24 18:37:56.983 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2023-04-24 18:37:57.297 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:37:57.297 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:37:57.347 [main] INFO  org.quartz.core.QuartzScheduler : Scheduler DatartScheduleCluster_$_umaru1682332671485 started.
+2023-04-24 18:37:57.359 [main] INFO  datart.DatartServerApplication : Started DatartServerApplication in 12.098 seconds (JVM running for 13.635)
+2023-04-24 18:37:57.360 [main] INFO  datart.server.config.AppModeStartConfig : The application is running in PLATFORM tenant-management-mode.
+2023-04-24 18:38:02.517 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:38:02.517 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:38:07.787 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:38:07.787 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:38:12.024 [http-nio-0.0.0.0-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 18:38:12.025 [http-nio-0.0.0.0-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-04-24 18:38:12.026 [http-nio-0.0.0.0-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2023-04-24 18:38:12.996 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:38:12.996 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:38:18.239 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:38:18.240 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:38:20.329 [http-nio-0.0.0.0-8080-exec-4] INFO  datart.server.service.impl.UserServiceImpl : try to login with ldap (admin).
+2023-04-24 18:38:20.345 [http-nio-0.0.0.0-8080-exec-4] ERROR datart.server.service.impl.UserServiceImpl : Login error (admin Megalab)
+2023-04-24 18:38:20.349 [http-nio-0.0.0.0-8080-exec-4] ERROR datart.server.config.WebExceptionHandler : 登录失败,用户名或密码错误
+datart.core.base.exception.BaseException: 登录失败,用户名或密码错误
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at datart.core.base.exception.Exceptions.tr(Exceptions.java:52)
+	at datart.core.base.exception.Exceptions.msg(Exceptions.java:28)
+	at datart.server.service.impl.UserServiceImpl.login(UserServiceImpl.java:289)
+	at datart.server.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$e1febc9e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at datart.server.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$24f3bd5a.login(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208)
+	at com.sun.proxy.$Proxy128.login(Unknown Source)
+	at datart.server.controller.UserController.login(UserController.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-04-24 18:38:23.556 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:38:23.556 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:38:28.730 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:38:28.731 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:38:33.984 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:38:33.984 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:38:39.216 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:38:39.216 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:38:44.461 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:38:44.461 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:38:49.905 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:38:49.905 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:38:54.964 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:38:54.964 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:39:00.187 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:39:00.188 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:39:05.427 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:39:05.428 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:39:10.695 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:39:10.695 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:39:15.929 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:39:15.929 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:39:21.170 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:39:21.170 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:39:21.949 [http-nio-0.0.0.0-8080-exec-3] ERROR datart.security.manager.shiro.ShiroSecurityManager : Login error (umaru)
+2023-04-24 18:39:21.949 [http-nio-0.0.0.0-8080-exec-3] INFO  datart.server.service.impl.UserServiceImpl : try to login with ldap (umaru).
+2023-04-24 18:39:21.951 [http-nio-0.0.0.0-8080-exec-3] ERROR datart.server.service.impl.UserServiceImpl : Login error (umaru Cc85650550)
+2023-04-24 18:39:21.952 [http-nio-0.0.0.0-8080-exec-3] ERROR datart.server.config.WebExceptionHandler : 登录失败,用户名或密码错误
+datart.core.base.exception.BaseException: 登录失败,用户名或密码错误
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at datart.core.base.exception.Exceptions.tr(Exceptions.java:52)
+	at datart.core.base.exception.Exceptions.msg(Exceptions.java:28)
+	at datart.server.service.impl.UserServiceImpl.login(UserServiceImpl.java:289)
+	at datart.server.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$e1febc9e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at datart.server.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$24f3bd5a.login(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208)
+	at com.sun.proxy.$Proxy128.login(Unknown Source)
+	at datart.server.controller.UserController.login(UserController.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-04-24 18:39:26.109 [http-nio-0.0.0.0-8080-exec-9] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Enabling session validation scheduler...
+2023-04-24 18:39:26.657 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://10.11.25.48:3306/datart?allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 89090
+2023-04-24 18:39:26.873 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:39:26.873 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:39:31.827 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:39:31.827 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:39:36.319 [http-nio-0.0.0.0-8080-exec-10] WARN  org.apache.ibatis.io.SerialFilterChecker : As you are using functionality that deserializes object streams, it is recommended to define the JEP-290 serial filter. Please refer to https://docs.oracle.com/pls/topic/lookup?ctx=javase15&id=GUID-8296D8E8-2B93-4B9A-856E-0A65AF9B8C66
+2023-04-24 18:39:36.886 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:39:36.886 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:39:42.130 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:39:42.130 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:39:47.391 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:39:47.391 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:39:52.837 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:39:52.837 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:39:57.853 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:39:57.853 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:40:03.105 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:40:03.106 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:40:08.362 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:40:08.362 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:40:13.603 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:40:13.603 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:40:18.647 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:40:18.647 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:40:23.698 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:40:23.698 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:40:28.979 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:40:28.979 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:40:34.028 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:40:34.028 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:40:39.481 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:40:39.492 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:40:44.529 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:40:44.529 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:40:49.722 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:40:49.724 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:40:54.696 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:40:54.696 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:40:59.712 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:40:59.713 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:41:04.970 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:41:04.970 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:41:10.230 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:41:10.230 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:41:15.482 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:41:15.482 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:41:20.698 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:41:20.698 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:41:25.936 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:41:25.936 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:41:31.211 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:41:31.211 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:41:36.434 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:41:36.434 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:41:41.676 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:41:41.676 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:41:47.567 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:41:47.568 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:41:52.161 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:41:52.161 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:41:57.514 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_MisfireHandler] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://10.11.25.48:3306/datart?allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 88524
+2023-04-24 18:41:57.522 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_MisfireHandler] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://10.11.25.48:3306/datart?allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 90364
+2023-04-24 18:41:57.530 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_MisfireHandler] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://10.11.25.48:3306/datart?allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 94312
+2023-04-24 18:41:57.538 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_MisfireHandler] WARN  com.alibaba.druid.pool.DruidAbstractDataSource : discard long time none received connection. , jdbcUrl : jdbc:mysql://10.11.25.48:3306/datart?allowMultiQueries=true&characterEncoding=utf-8, version : 1.2.4, lastPacketReceivedIdleMillis : 94320
+2023-04-24 18:41:57.548 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:41:57.548 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:42:02.631 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:42:02.631 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:42:07.877 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:42:07.878 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:42:13.325 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:42:13.325 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:42:18.384 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:42:18.384 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:42:23.601 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:42:23.602 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:42:28.843 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:42:28.843 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:42:34.097 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:42:34.098 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:42:39.360 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:42:39.360 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:42:44.604 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:42:44.605 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:42:49.830 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:42:49.830 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:42:55.073 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:42:55.074 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:43:00.383 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:43:00.383 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:43:05.749 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:43:05.750 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:43:10.815 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:43:10.815 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:43:16.072 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:43:16.072 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:43:21.313 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:43:21.314 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:43:26.574 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:43:26.574 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:43:31.772 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:43:31.773 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:43:37.253 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:43:37.253 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:43:42.276 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:43:42.277 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:43:47.534 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:43:47.534 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:43:52.779 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:43:52.779 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:43:57.985 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:43:57.986 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:44:03.240 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:44:03.240 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:44:08.494 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:44:08.495 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:44:13.887 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:44:13.887 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:44:18.997 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:44:18.998 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:44:24.223 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:44:24.223 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:44:29.436 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:44:29.437 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:44:34.690 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:44:34.690 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:44:40.651 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:44:40.652 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:44:45.714 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:44:45.714 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:44:50.899 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:44:50.899 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:44:55.847 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:44:55.847 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:45:00.916 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:45:00.916 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:45:06.344 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:45:06.345 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:45:11.409 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:45:11.410 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:45:16.626 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:45:16.627 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:45:21.880 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:45:21.880 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:45:27.117 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:45:27.118 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:45:32.568 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:45:32.568 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:45:37.613 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:45:37.614 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:45:42.837 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:45:42.838 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:45:48.079 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:45:48.079 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:45:53.343 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:45:53.344 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:45:58.576 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:45:58.577 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:46:03.835 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:46:03.836 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:46:09.054 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:46:09.054 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:46:14.309 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:46:14.310 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:46:19.573 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:46:19.573 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:46:24.798 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:46:24.798 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:46:30.072 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:46:30.072 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:46:35.487 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:46:35.487 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:46:40.519 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:46:40.519 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:46:45.769 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:46:45.770 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:46:51.017 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:46:51.017 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:46:56.251 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:46:56.255 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:47:01.492 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:47:01.494 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:47:06.728 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:47:06.728 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:47:11.983 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:47:11.984 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:47:17.219 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:47:17.220 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:47:22.522 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:47:22.522 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:47:27.738 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:47:27.739 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:47:33.035 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:47:33.035 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:47:38.132 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:47:38.132 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:47:43.166 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler : Scheduler DatartScheduleCluster_$_umaru1682332671485 paused.
+2023-04-24 18:47:43.203 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-04-24 18:47:43.265 [SpringContextShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean : Shutting down Quartz Scheduler
+2023-04-24 18:47:43.266 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler : Scheduler DatartScheduleCluster_$_umaru1682332671485 shutting down.
+2023-04-24 18:47:43.266 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler : Scheduler DatartScheduleCluster_$_umaru1682332671485 paused.
+2023-04-24 18:47:43.392 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: detected 1 failed or restarted instances.
+2023-04-24 18:47:43.392 [QuartzScheduler_DatartScheduleCluster-umaru1682332671485_ClusterManager] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore : ClusterManager: Scanning for instance "872307d918651681372154409"'s failed in-progress jobs.
+2023-04-24 18:47:43.438 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler : Scheduler DatartScheduleCluster_$_umaru1682332671485 shutdown complete.
+2023-04-24 18:47:43.459 [SpringContextShutdownHook] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager : Disabled session validation scheduler.
+2023-04-24 18:47:43.461 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+2023-04-24 18:47:43.475 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
