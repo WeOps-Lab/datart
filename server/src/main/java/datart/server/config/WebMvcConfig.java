@@ -71,7 +71,8 @@ public class WebMvcConfig implements WebMvcConfigurer {
                 SerializerFeature.WriteEnumUsingToString,
                 SerializerFeature.WriteMapNullValue,
                 SerializerFeature.WriteDateUseDateFormat,
-                SerializerFeature.DisableCircularReferenceDetect);
+                SerializerFeature.DisableCircularReferenceDetect,
+                SerializerFeature.IgnoreErrorGetter);
         fastConverter.setFastJsonConfig(fastJsonConfig);
         converters.add(0, fastConverter);
     }
