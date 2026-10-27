@@ -14,6 +14,7 @@
     <properties>
         <java.version>1.8</java.version>
         <spring.cloud.version>2020.0.1</spring.cloud.version>
+        <guava.version>33.7.2-jre</guava.version>
     </properties>
 
     <groupId>datart</groupId>
@@ -47,6 +48,8 @@
         <module>server</module>
     </modules>
 
+    <!-- temporarily disabled for Guava upgrade smoke: spring-milestones times out -->
+    <!--
     <repositories>
         <repository>
             <id>spring-milestones</id>
@@ -54,9 +57,15 @@
             <url>https://repo.spring.io/milestone</url>
         </repository>
     </repositories>
+    -->
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
